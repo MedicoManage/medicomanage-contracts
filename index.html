@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedicoManage Digital Contract Portal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .logo h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        .logo p {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        .description {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+        }
+        .description h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .description p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .contract-card {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+        }
+        .contract-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-color: #3498db;
+        }
+        .contract-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        .features {
+            list-style: none;
+            text-align: left;
+            margin: 20px 0;
+        }
+        .features li {
+            color: #555;
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .features li:before {
+            content: "✓";
+            color: #27ae60;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #229954;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>MedicoManage</h1>
+            <p>Digital Contract Portal</p>
+        </div>
+
+        <div class="description">
+            <h2>Professional Medico-Legal Services</h2>
+            <p>Welcome to MedicoManage's secure digital contract platform.</p>
+            <p><strong>Comprehensive Master Agreement - Legally binding and POPIA compliant.</strong></p>
+        </div>
+
+        <div class="contract-card">
+            <h3>Comprehensive Master Agreement</h3>
+            <p>Complete legal framework with detailed terms and conditions for medico-legal services.</p>
+            <ul class="features">
+                <li>Full 10-clause legal protection</li>
+                <li>RAF Trust disbursement protection</li>
+                <li>Detailed fee schedule (Annexure A)</li>
+                <li>Professional independence clauses</li>
+                <li>Witness signature requirements</li>
+                <li>POPIA compliance and confidentiality</li>
+                <li>Digital signature capability</li>
+            </ul>
+            <a href="contract.html" class="btn">Sign Master Agreement</a>
+        </div>
+
+        <div class="footer">
+            <p><strong>MedicoManage (Pty) Ltd</strong></p>
+            <p>Represented by Keith Stephen Polden and Rina Polden</p>
+            <p>© 2024 MedicoManage. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
